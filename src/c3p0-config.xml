@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/sims</property>
+        <property name="user">root</property>
+        <property name="password">asd58108181</property>
+        <property name="checkoutTimeout">30000</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxPoolSize">30</property>
+        <property name="maxIdleTime">30</property>
+        <property name="minPoolSize">10</property>
+        <property name="maxStatements">100</property>
+    </default-config>
+    <name-config name="root">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/sims</property>
+        <property name="user">root</property>
+        <property name="password">asd58108181</property>
+        <property name="initialPoolSize">5</property>
+        <property name="maxPoolSize">15</property>
+    </name-config>
+</c3p0-config>
+
