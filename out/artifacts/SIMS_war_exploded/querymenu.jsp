@@ -10,31 +10,45 @@
 <html>
 <head>
     <title>任务管理</title>
-    <link rel="stylesheet" href="/css/filebutton.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+    <!-- 包含 bootstrap 样式表 -->
     <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/filebutton.css">
+    <link rel="stylesheet" href="/css/style.css">
     <style type="text/css">
         select{
-            width: 176px;height: 21px;font-size: 16px
+            width: 176px;height: 29px;font-size: 16px
         }
     </style>
 </head>
 <body>
-<c:if test="${user.type==1}">
-    <div style="background: #243b55;height: 43px;width: 1707px">
-        <p style="color: rgb(255,238,0);font-size: 15px;padding: 11px 280px;font-size: 15px">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+<jsp:include page="myAccount.jsp" flush="true"/>
+
+<section class="home-section">
+    <div class="home-content">
+        <i class='bx bx-menu' ></i>
+        <span class="text">
+            <c:if test="${user.type==1}">
+    <div class="div-style">
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
     </div>
-</c:if>
-<c:if test="${user.type!=1}">
-    <div style="background: #243b55;height: 43px;width: 1707px">
-        <p style="color: rgb(255,238,0);font-size: 15px;padding: 11px 280px;font-size: 15px">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+            </c:if>
+            <c:if test="${user.type!=1}">
+    <div class="div-style">
+        <p class="p-style">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
     </div>
-</c:if>
+            </c:if>
+
+      </span>
+    </div>
+
 <div>
 
     <h2 style="text-align: center">任务管理</h2>
     <%--一定要写明提交方式，否则无法编码，中文乱码--%>
     <form action="/ListTask?index=1" method="post" name="form1">
-        <table border="0" style="margin: 0 auto;width: 300px;height: 150px">
+        <table border="0" style="margin: 0 auto;width: 300px;height: 170px">
             <tr>
                 <td>任务日期：</td>
                 <td>

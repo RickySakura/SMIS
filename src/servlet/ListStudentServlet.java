@@ -27,7 +27,7 @@ public class ListStudentServlet extends HttpServlet {
         if(index<=0){
             index=1;
         }
-        int colnum=14;
+        int colnum=13;
         int startIndex = (index-1)*colnum;
 
         try{

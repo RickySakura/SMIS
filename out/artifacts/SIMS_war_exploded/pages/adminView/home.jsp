@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/button.css">
     <style type="text/css">
         button {
@@ -39,15 +37,16 @@
 </head>
 <body>
 
-<jsp:include page="../../demo.jsp" flush="true"/>
+<jsp:include page="../../myAccount.jsp" flush="true"/>
 
 <section class="home-section">
     <div class="home-content">
         <i class='bx bx-menu' ></i>
         <span class="text">
-        <div style="background: #11101d;height: 59px;width: 1700px;padding: 25px;margin: -8px 0 -1px">
-        <p style="color: rgb(255,238,0);font-size: 15px;font-size: 15px;margin: -3px 0 10px">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
-      </div>
+    <div class="div-style">
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+    </div>
+
       </span>
     </div>
 
@@ -88,7 +87,7 @@
                     <p style="text-align: center"><a href = "/ListStudentServlet?index=1" >首页</a>
                         <%--通过地址栏传递参数，来实现index的改变--%>
                         <a href = "/ListStudentServlet?index=${index-1}" >上一页</a>
-                        共${count}页 -向<input type="text" name="index"/>页 <button type="submit">跳转</button>
+                        共${count}页 -向<input type="text" name="index"/>页 <button type="submit" onclick="aler()">跳转</button>
                         <a href = "/ListStudentServlet?index=${index+1}" onclick="alertt()" >下一页</a>
                         <a href = "/ListStudentServlet?index=${count}" >尾页</a>
                     </p>
@@ -118,7 +117,7 @@
             window.event.returnValue=false;
         }
     }
-
+    <%--侧边栏滑动动画是通过js函数实现的动画效果--%>
     let arrow = document.querySelectorAll(".arrow");
     for (var i = 0; i < arrow.length; i++) {
         arrow[i].addEventListener("click", (e)=>{

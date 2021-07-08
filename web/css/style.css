@@ -12,7 +12,16 @@
 p input{
   width: 50px;
 }
-
+.div-style{
+  background: #11101d;
+  height: 59px;
+  width: 2000px;
+  padding: 25px;
+  margin: -8px 0 -1px;
+}
+.p-style{
+  color: rgb(255,238,0);font-size: 15px;font-size: 15px;margin: -3px 0 10px;
+}
 .sidebar{
   position: fixed;
   top: 0;
@@ -216,12 +225,16 @@ p input{
   font-size: 12px;
 }
 .home-section{
-  position: relative;
+  position: fixed;
   background: #E4E9F7;
-  height: 100vh;
+  height: 100%;
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 0;
+    bottom: 0;
 }
 .sidebar.close ~ .home-section{
   left: 78px;

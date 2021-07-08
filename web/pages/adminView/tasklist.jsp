@@ -15,18 +15,30 @@
     <!-- 包含 bootstrap 样式表 -->
     <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/filebutton.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style type="text/css">
+        div p:first-child{
+            font-size: 15px;font-size: 15px;margin: -3px 0 10px;
+        }
+        button{
+
+        }
+    </style>
 </head>
-<body id="back1">
-<c:if test="${user.type==1}">
-    <div style="background: #243b55;height: 43px;width: 1707px">
-        <p style="color: rgb(255,238,0);font-size: 15px;padding: 11px 280px;font-size: 15px">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+<body>
+<jsp:include page="../../myAccount.jsp" flush="true"/>
+
+<section class="home-section">
+    <div class="home-content">
+        <i class='bx bx-menu' ></i>
+        <span class="text">
+    <div class="div-style">
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
     </div>
-</c:if>
-<c:if test="${user.type!=1}">
-    <div style="background: #243b55;height: 43px;width: 1707px">
-        <p style="color: rgb(255,238,0);font-size: 15px;padding: 11px 280px;font-size: 15px">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+
+      </span>
     </div>
-</c:if>
+
 <div class="container">
     <h2 style="text-align: center">任务管理系统</h2>
     <%--发布任务--%>
@@ -82,11 +94,11 @@
                     <td width="120px" style="text-align: center">
                         <c:choose>
                             <c:when test="${s.status eq '未完成'}">
-                                <form action="/editStatus" method="post"name="form1" style="width: 144px;"><button type="submit" style="float: left;width: 66px" onclick="conf()">审核</button>
+                                <form action="/editStatus" method="post"name="form1" style="width: 144px;"><button type="submit" style="float: left;width: 90px" onclick="conf()">审核</button>
                                     <input type="hidden" name="num" value="${s.num}"> <input type="hidden" name="status" value="已完成"></form>
                             </c:when>
                             <c:when test="${s.status eq '已完成'}">
-                                <form action="/DeleteTask" method="post"name="form1" style="width: 144px;"><button type="submit" style="float: left;width: 83px;background-color: red" onclick="del()">删除记录</button>
+                                <form action="/DeleteTask" method="post"name="form1" style="width: 144px;"><button type="submit" style="float: left;width: 90px;background-color: red" onclick="del()">删除记录</button>
                                     <input type="hidden" name="num" value="${s.num}"></form>
                             </c:when>
                         </c:choose>
@@ -102,7 +114,7 @@
                 <a href = "/ListTask?index=${index-1}" >上一页</a>
                 共${count}页 -向<input type="text" name="index"/>页 <button type="submit" onclick="aler()">跳转</button>
                 <a href = "/ListTask?index=${index+1}" onclick="alertt()">下一页</a>
-                <a href = "/ListTask?index=${count}" onclick="alertt()" >尾页</a></p>
+                <a href = "/ListTask?index=${count}" >尾页</a></p>
         </form>
     </div>
 </div>
@@ -133,6 +145,20 @@
             window.event.returnValue=false;
         }
     }
+    let arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+            let arrowParent = e.target.parentElement.parentElement;
+            arrowParent.classList.toggle("showMenu");
+        });
+    }
+
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".bx-menu");
+    console.log(sidebarBtn);
+    sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+    });
 </script>
 </body>
 </html>

@@ -12,14 +12,26 @@
 <head>
     <title>添加用户信息</title>
     <link rel="stylesheet" href="https://apps.bdimg.com/libs/bootstrap/3.2.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <link rel="stylesheet" href="/css/filebutton.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<c:if test="${user.type==1}">
-    <div style="background: #243b55;height: 43px;width: 1707px">
-        <p style="color: rgb(255,238,0);font-size: 15px;padding: 11px 280px;font-size: 15px">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+<jsp:include page="../../myAccount.jsp" flush="true"/>
+
+<section class="home-section">
+    <div class="home-content">
+        <i class='bx bx-menu' ></i>
+        <span class="text">
+    <div class="div-style">
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
     </div>
-</c:if>
+      </span>
+    </div>
+
 <h2 style="text-align: center">添加用户信息</h2>
 <%--一定要写明提交方式，否则无法编码，中文乱码--%>
 <form action="/TwiceServlet" method="post">
@@ -48,5 +60,6 @@
     <p style="text-align: center"><input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset"></p>
 </form>
 
+</section>
 </body>
 </html>

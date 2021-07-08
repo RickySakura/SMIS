@@ -24,26 +24,25 @@
     </style>
 </head>
 <body class="white">
-<jsp:include page="../../demo.jsp" flush="true"/>
+<jsp:include page="../../myAccount.jsp" flush="true"/>
 
 <section class="home-section">
     <div class="home-content">
         <i class='bx bx-menu' ></i>
         <span class="text">
-        <c:if test="${user.type==1}">
-    <div style="background: #11101d;height: 59px;width: 1700px;padding: 25px;margin: -8px 0 -1px">
-        <p style="color: rgb(255,238,0);">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+            <c:if test="${user.type==1}">
+    <div class="div-style">
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
     </div>
-        </c:if>
-<c:if test="${user.type!=1}">
-    <div style="background: #11101d;height: 59px;width: 1700px;padding: 25px;margin: -8px 0 -1px">
-        <p>退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+            </c:if>
+            <c:if test="${user.type!=1}">
+    <div class="div-style">
+        <p class="p-style">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
     </div>
-</c:if>
+            </c:if>
+
       </span>
     </div>
-
-
 
 <div class="container">
     <h2 style="text-align: center">文件管理列表</h2>
@@ -112,7 +111,7 @@
     }
 
     function alertt() {
-        if (${index}+1>=${count}){
+        if (${index}+1>${count}){
             alert("当前已经是最后一页了！");
             window.event.returnValue=false;
         }

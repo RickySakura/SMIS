@@ -30,7 +30,7 @@ public class ListFileServlet extends HttpServlet {
             index=1;
         }
         //colnum:一页展示多少条记录
-        int colnum=12;
+        int colnum=13;
         int startIndex = (index-1)*colnum;
         try{
             //获取session域中的user对象，获得username

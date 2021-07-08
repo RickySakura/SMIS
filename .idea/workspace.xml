@@ -41,29 +41,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="button.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/button.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="252">
+              <caret line="234" column="23" lean-forward="true" selection-start-line="234" selection-start-column="23" selection-end-line="234" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/demo.html">
+      <file leaf-file-name="ListTaskServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/taskManage/ListTaskServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2030">
-              <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="209">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -71,58 +62,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/slide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2451">
-              <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/demo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/adminView/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filelist.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/adminView/filelist.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="99" column="85" lean-forward="true" selection-start-line="99" selection-start-column="85" selection-end-line="99" selection-end-column="85" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="608">
+              <caret line="35" column="152" lean-forward="true" selection-start-line="35" selection-start-column="152" selection-end-line="35" selection-end-column="152" />
             </state>
           </provider>
         </entry>
@@ -130,8 +71,45 @@
       <file leaf-file-name="myAccount.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/myAccount.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="44" column="31" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="1143">
+              <caret line="180" column="98" selection-start-line="180" selection-start-column="98" selection-end-line="180" selection-end-column="98" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTask.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pages/adminView/addTask.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="querymenu.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/querymenu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="43" column="10" lean-forward="true" selection-start-line="27" selection-end-line="43" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#p#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/pages/adminView/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -152,12 +130,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/utils/CreateVerificationCodeImage.java" />
         <option value="$PROJECT_DIR$/src/utils/CreateVerificationCode.java" />
         <option value="$PROJECT_DIR$/src/servlet/ImageCodeServlet.java" />
         <option value="$PROJECT_DIR$/out/artifacts/SIMS_war_exploded/css/main.css" />
         <option value="$PROJECT_DIR$/web/css/main.css" />
-        <option value="$PROJECT_DIR$/src/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/DownloadServlet.java" />
         <option value="$PROJECT_DIR$/src/dao/StudentDao.java" />
@@ -170,27 +146,17 @@
         <option value="$PROJECT_DIR$/src/servlet/Test.java" />
         <option value="$PROJECT_DIR$/src/example.java" />
         <option value="$PROJECT_DIR$/web/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/taskManage/ListTaskServlet.java" />
         <option value="$PROJECT_DIR$/web/aaa.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/taskManage/editStatusServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/taskManage/AddTaskServlet.java" />
         <option value="$PROJECT_DIR$/src/dao/TaskDao.java" />
         <option value="$PROJECT_DIR$/src/servlet/taskManage/DeleteTaskServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/ListFileServlet.java" />
         <option value="$PROJECT_DIR$/web/message.jsp" />
         <option value="$PROJECT_DIR$/web/loginmessage.jsp" />
         <option value="$PROJECT_DIR$/web/myAccount.jsp" />
         <option value="$PROJECT_DIR$/src/servlet/ShowImageServlet.java" />
-        <option value="$PROJECT_DIR$/web/pages/adminView/edit.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/adminView/addTask.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/adminView/insert.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/adminView/tasklist.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/userView/list.jsp" />
-        <option value="$PROJECT_DIR$/web/pages/userView/mytask.jsp" />
-        <option value="$PROJECT_DIR$/web/querymenu.jsp" />
         <option value="$PROJECT_DIR$/src/service/TaskService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/pages/userView/editself.jsp" />
         <option value="$PROJECT_DIR$/web/login.html" />
         <option value="$PROJECT_DIR$/web/css/boxicons.min.css" />
         <option value="$PROJECT_DIR$/web/dropdown sidebar/index.html" />
@@ -199,10 +165,22 @@
         <option value="$PROJECT_DIR$/web/demo.html" />
         <option value="$PROJECT_DIR$/web/slide.html" />
         <option value="$PROJECT_DIR$/web/css/button.css" />
-        <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/web/pages/adminView/home.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/adminView/insert.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/adminView/addTask.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/adminView/edit.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/userView/editself.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/userView/list.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/userView/mytask.jsp" />
         <option value="$PROJECT_DIR$/web/pages/adminView/filelist.jsp" />
+        <option value="$PROJECT_DIR$/web/querymenu.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/adminView/tasklist.jsp" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/src/servlet/taskManage/ListTaskServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ListFileServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ListStudentServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/web/demo.jsp" />
+        <option value="$PROJECT_DIR$/web/pages/adminView/home.jsp" />
       </list>
     </option>
   </component>
@@ -232,16 +210,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="287" />
-    <option name="y" value="-10" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1455" />
-    <option name="height" value="1030" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,7 +231,31 @@
             <path>
               <item name="SIMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="taskManage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIMS" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIMS" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIMS" type="b2602c69:ProjectViewProjectNode" />
@@ -278,9 +281,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,19 +303,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SIMS\web\images" />
+      <recent name="D:\SIMS\web\css" />
+      <recent name="D:\SIMS\web" />
+      <recent name="D:\SIMS\web\js" />
+      <recent name="D:\SIMS\web\WEB-INF\lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SIMS\web\pages\adminView" />
       <recent name="D:\SIMS\web" />
       <recent name="D:\SIMS\web\css" />
       <recent name="D:\SIMS\web\js" />
       <recent name="D:\SIMS\web\pages\userView" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SIMS\web\css" />
-      <recent name="D:\SIMS\web" />
-      <recent name="D:\SIMS\web\js" />
-      <recent name="D:\SIMS\web\WEB-INF\lib" />
-      <recent name="D:\SIMS\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,7 +400,7 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.443" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -586,11 +588,12 @@
       <workItem from="1625290889182" duration="1460000" />
       <workItem from="1625468023940" duration="5566000" />
       <workItem from="1625569634104" duration="8501000" />
+      <workItem from="1625730451696" duration="14314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224820000" />
+    <option name="totallyTimeSpent" value="239134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,10 +627,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49891067" weight="0.2869081" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32729805" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.91015625" visible="true" weight="0.1575067" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.91015625" visible="true" weight="0.15951742" />
       <window_info id="Web" order="2" sideWeight="0.08984375" side_tool="true" weight="0.1575067" />
       <window_info id="设计器" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32708934" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3259053" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.3286908" />
@@ -640,9 +643,8 @@
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32729805" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3259053" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49891067" visible="true" weight="0.29805014" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49891067" visible="true" weight="0.29805014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -668,6 +670,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32729805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -687,25 +690,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/pages/adminView/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/taskManage/AddTaskServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/taskManage/editStatusServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -734,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/ListStudentServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/EditStudentServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
@@ -752,55 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/adminView/addTask.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="266" selection-start-line="23" selection-start-column="266" selection-end-line="23" selection-end-column="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/adminView/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="266" selection-start-line="25" selection-start-column="266" selection-end-line="25" selection-end-column="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/adminView/insert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="268" selection-start-line="19" selection-start-column="268" selection-end-line="19" selection-end-column="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/adminView/tasklist.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="266" selection-start-line="26" selection-start-column="266" selection-end-line="26" selection-end-column="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/userView/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="262" selection-start-line="21" selection-start-column="262" selection-end-line="21" selection-end-column="262" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/userView/mytask.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="266" selection-start-line="26" selection-start-column="266" selection-end-line="26" selection-end-column="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/querymenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="74" column="156" selection-start-line="74" selection-start-column="156" selection-end-line="74" selection-end-column="156" />
         </state>
       </provider>
     </entry>
@@ -868,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/taskManage/ListTaskServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="73" column="9" selection-start-line="52" selection-end-line="73" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -896,24 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/userView/editself.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/DeleteFileServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/ListFileServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="55" column="100" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -938,100 +845,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/boxicons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/dropdown sidebar/style.css" />
     <entry file="file://$PROJECT_DIR$/web/dropdown sidebar/index.html" />
     <entry file="file://$PROJECT_DIR$/web/slide.jsp" />
     <entry file="file://$PROJECT_DIR$/web/slide.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2451">
-          <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/aaa.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html" />
+    <entry file="file://$PROJECT_DIR$/web/aaa.jsp" />
     <entry file="file://$PROJECT_DIR$/web/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2030">
-          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        <state relative-caret-position="209">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/web/css/boxicons.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/adminView/home2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="-850">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/adminView/home.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/adminView/insert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+        <state relative-caret-position="133">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/oldmyAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/adminView/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="65" selection-start-line="65" selection-end-line="80" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/userView/editself.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/userView/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="110" column="7" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="110" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/adminView/filelist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="99" column="85" lean-forward="true" selection-start-line="99" selection-start-column="85" selection-end-line="99" selection-end-column="85" />
+        <state relative-caret-position="475">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="234" column="23" lean-forward="true" selection-start-line="234" selection-start-column="23" selection-end-line="234" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/taskManage/ListTaskServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ListFileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ListStudentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="152" lean-forward="true" selection-start-line="35" selection-start-column="152" selection-end-line="35" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/adminView/tasklist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1599">
+          <caret line="101" column="92" lean-forward="true" selection-start-line="101" selection-start-column="92" selection-end-line="101" selection-end-column="92" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#0;n#span#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#1;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/querymenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="10" lean-forward="true" selection-start-line="27" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#p#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/userView/mytask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="150" column="4" lean-forward="true" selection-start-line="150" selection-start-column="4" selection-end-line="163" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#1;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/myAccount.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="31" />
+        <state relative-caret-position="1143">
+          <caret line="180" column="98" selection-start-line="180" selection-start-column="98" selection-end-line="180" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/demo.jsp">
+    <entry file="file://$PROJECT_DIR$/web/pages/adminView/addTask.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/adminView/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
