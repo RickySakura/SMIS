@@ -24,7 +24,7 @@
     </style>
 </head>
 <body class="white">
-<jsp:include page="../../myAccount.jsp" flush="true"/>
+<jsp:include page="../../myAccount.jsp"/>
 
 <section class="home-section">
     <div class="home-content">
@@ -32,12 +32,12 @@
         <span class="text">
             <c:if test="${user.type==1}">
     <div class="div-style">
-        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/genshin.jsp">返回首页</a></p>
     </div>
             </c:if>
             <c:if test="${user.type!=1}">
     <div class="div-style">
-        <p class="p-style">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+        <p class="p-style">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/genshin.jsp">返回首页</a></p>
     </div>
             </c:if>
 
@@ -57,7 +57,7 @@
     </form>
 
     <div>
-        <table class="table table-striped table-bordered">
+        <table class="table table-striped ">
             <thead>
             <tr>
                 <th style="width: 100px;height: 5px">编号</th>
@@ -76,7 +76,7 @@
                     <td>${s.filename}</td>
                     <td>${s.fileurl}</td>
                     <td>${s.datetime}</td>
-                    <td  width="185px" style="text-align: center">
+                    <td  width="185px" style="text-align: center;border-top: 2px solid #ddd;">
                          <form action="/ShowImage" method="post"name="form1" style="width: 144px;"><button type="submit" style="float: left">查看</button>
                                 <input type="hidden" name="filename" value="${s.filename}"> <input type="hidden" name="fileurl" value="${s.fileurl}"></form>
 
@@ -101,7 +101,7 @@
     </form>
     </div>
 </div>
-</section>>
+</section>
 
 <script type="text/javascript">
     function del() {

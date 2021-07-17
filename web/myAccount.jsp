@@ -36,7 +36,6 @@
             font-size: 115%;
         }
     </style>
-    <title>万叶首页</title>
 </head>
 <body>
 <div class="sidebar">
@@ -156,46 +155,5 @@
 </div>
 
 
-<section class="home-section">
-    <div class="home-content" style="height: 52px">
-        <i class='bx bx-menu' ></i>
-        <span class="text">
-            <c:if test="${user.type==1}">
-    <div class="div-style">
-        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
-    </div>
-            </c:if>
-            <c:if test="${user.type!=1}">
-    <div class="div-style">
-        <p class="p-style">欢迎您，用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
-    </div>
-            </c:if>
-
-      </span>
-    </div>
-
-    <a href="https://www.bilibili.com/video/BV15K4y1M7Xn?from=search&seid=18419053587492121925" target="wanyePV">
-        <img src="images/wanye.jpg" style="width: 100%;height: 94%" alt="该图片不存在" title="万叶太帅了">
-    </a>
-    <iframe name="wanyePV" height="94%" width="100%"></iframe>
-    <%--<embed src="https://www.bilibili.com/static.hdslb.com/play.swf" width="100%" hegiht="94%" type="application/x-shockwave-flash" quality="high">--%>
-</section>
-
-<script type="text/javascript">
-    let arrow = document.querySelectorAll(".arrow");
-    for (var i = 0; i < arrow.length; i++) {
-        arrow[i].addEventListener("click", (e)=>{
-            let arrowParent = e.target.parentElement.parentElement;
-            arrowParent.classList.toggle("showMenu");
-        });
-    }
-
-    let sidebar = document.querySelector(".sidebar");
-    let sidebarBtn = document.querySelector(".bx-menu");
-    console.log(sidebarBtn);
-    sidebarBtn.addEventListener("click", ()=>{
-        sidebar.classList.toggle("close");
-    });
-</script>
 </body>
 </html>

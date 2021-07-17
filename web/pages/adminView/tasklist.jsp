@@ -33,7 +33,7 @@
         <i class='bx bx-menu' ></i>
         <span class="text">
     <div class="div-style">
-        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/myAccount.jsp">返回首页</a></p>
+        <p class="p-style">欢迎您，超级用户 ${user.username}&nbsp;&nbsp;<a href="/index.jsp" style="color: #cdff97">退出登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: #8fff96" href="/genshin.jsp">返回首页</a></p>
     </div>
 
       </span>
@@ -118,6 +118,7 @@
         </form>
     </div>
 </div>
+</section>
 <script type="text/javascript" src="/js/jquery-3.5.1.js"></script>
 <script type="text/javascript">
     function del() {
